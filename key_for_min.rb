@@ -15,4 +15,5 @@ for i in 0..array.length-1
       end
 name_hash[array[0]]
     end
+  end
     
