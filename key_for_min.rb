@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   array = []
-  array.push (hash.values)
+  array.push (name_hash.values)
   
 for i in 0..array.length-1
     for j in 0..x.length-2
