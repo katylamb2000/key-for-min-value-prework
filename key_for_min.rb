@@ -2,8 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  array = []
-  array.push (name_hash.values)
+  name_hash.to_a
   i = 0
   x   
 for i in 0..name_hash.length-1
