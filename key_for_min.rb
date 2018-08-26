@@ -4,10 +4,16 @@
 def key_for_min_value(name_hash)
   array = []
   array.push (hash.values)
-
-   if  array[0] < array 
-     puts 
-    
-    return name_hash[0]
+  
+for i in 0..array.length-1
+    for j in 0..x.length-2
+        if x[j] < x[j+1]
+            swap = x[j]
+            x[j] = x[j+1]
+            x[j+1] = swap
+        end
+name_hash[array[0]]
+    end
+end
     
 end
