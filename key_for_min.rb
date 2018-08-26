@@ -12,8 +12,7 @@ for i in 0..array.length-1
             x[j] = x[j+1]
             x[j+1] = swap
         end
+      end
 name_hash[array[0]]
     end
-end
     
-end
